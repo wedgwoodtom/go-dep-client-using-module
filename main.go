@@ -9,7 +9,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/sqs"
 	"github.com/wedgwoodtom/go-common-module-module/awsClients"
-	"github.com/wedgwoodtom/go-dep-client/messageProcessor"
+	"github.com/wedgwoodtom/go-dep-client-using-module/messageProcessor"
 )
 
 // Values here are set during the build
@@ -36,6 +36,7 @@ func main() {
 	sess := session.Must(session.NewSession(&aws.Config{
 		Region: aws.String(aws_region),
 	}))
+
 	sqsMessageQueue := awsClients.NewQueue(sqs.New(sess), sqs_queue)
 	messageProcessor := messageProcessor.New(sqsMessageQueue)
 	go messageProcessor.Start()

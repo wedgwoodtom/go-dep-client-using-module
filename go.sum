@@ -2,9 +2,5 @@ github.com/aws/aws-sdk-go v1.20.16 h1:Dq68fBH39XnSjjb2hX/iW6mui8JtXcVAuhRYGSRiis
 github.com/aws/aws-sdk-go v1.20.16/go.mod h1:KmX6BPdI08NWTb3/sm4ZGu5ShLoqVDhKgpiN924inxo=
 github.com/jmespath/go-jmespath v0.0.0-20180206201540-c2b33e8439af h1:pmfjZENx5imkbgOkpRUYLnmbU7UEFbjtDA2hxJ1ichM=
 github.com/jmespath/go-jmespath v0.0.0-20180206201540-c2b33e8439af/go.mod h1:Nht3zPeWKUH0NzdCt2Blrr5ys8VGpn0CEB0cQHVjt7k=
-github.com/wedgwoodtom/go-common-module v0.0.0-20190508181513-bfa1337c52ea h1:WHnmECg6ymTkjxZW7LvZLgc1Lr6Xl3QWRWfxydOlhy8=
-github.com/wedgwoodtom/go-common-module v0.0.0-20190508181513-bfa1337c52ea/go.mod h1:WP5dpzeaJ1IEMNX8/X5znCdRwo9UEWxFbWUp33OvhSE=
 github.com/wedgwoodtom/go-common-module-module v1.1.0 h1:fEyE6SSbjBpily+bY7L/Wcd7SjNDSHKq0spq3XXG4SY=
 github.com/wedgwoodtom/go-common-module-module v1.1.0/go.mod h1:ysDxF2q2RU5hJWreFQbDSgr6gb7+0yw0kkG51rK4S4o=
-github.com/wedgwoodtom/go-dep-client v0.0.0-20190520200113-5fb3fbbfd3af h1:KFFCmju0v9yHZPKPFER23oJcqZlt9v1qsDQmgrSCRD0=
-github.com/wedgwoodtom/go-dep-client v0.0.0-20190520200113-5fb3fbbfd3af/go.mod h1:hehaa9lg9eINVvu5qnBsjT/lPa+xTDoRt8On0t/so94=
